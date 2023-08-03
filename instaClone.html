@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+    .container{
+        height: 100vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .box1{
+        height: 580px;
+        width: 400px;
+        /* border: 2px solid black;
+        border-radius: 5px; */
+    } 
+    .box1 img{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        right: 20px;
+        text-align: center;
+
+    }
+    .box2{height: 580px;
+        width: 330px;
+  
+        border-radius: 5px;
+
+    }
+
+    .subbox1{
+        height: 70%;
+        width: 100%;
+        border: 1px solid rgb(167, 167, 167);
+        /* border: 2px solid black; */
+    
+
+
+    }
+    .logobox{
+        height: 15%;
+        text-align: center;
+        /* border: 2px dashed black; */
+    }
+    .logobox img{
+        height: 150%;
+        width: 55%;
+        text-align: center;
+    }
+    .inputbox{
+        height: 50%;
+        width: 100%;
+        /* border: 2px dashed green; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        justify-content: center;
+        
+        
+    }
+    input{
+
+        height: 12%;
+        width: 70%;
+        margin: 10px;
+
+    }
+    .inputbox button{
+        border-radius: 8px;
+        color: white;
+        background: rgb(131,58,180);
+        border: none;
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 71%, rgba(252,176,69,1) 100%);
+        margin: 5px;
+        height: 12%;
+        width: 71%;
+    }
+    span{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  
+    .or{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .or .line{
+        height: 1px;
+          width: 45%;
+          background-color: #dbdbdb;
+          /* position: relative;
+          
+          left: 30px;
+          right: 25px; */
+    }
+    .fb{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+
+    }
+    .fblogin-btn {
+          margin: 7px;
+          border: 0;
+          cursor: pointer;
+          font-size: 14px;
+          color: #385185;
+          font-weight: 600;
+          background: transparent;
+    }
+    .forgotpasswd{
+        font-size: 13px;
+        color: #003569;
+        text-decoration: none;
+    }
+
+    .subbox2{
+        text-align: center;
+        margin-top: 10px;
+        justify-content: center;
+        border: 1px solid rgb(167, 167, 167);
+   
+    }
+    .signup{
+        color: #3897f0;
+        font-weight: 550;
+        text-decoration: none;
+
+    }
+    .bottom-bar{
+        height: 150px;
+        width: 327px;
+        /* border: 1px dashed green; */
+        /* display: flex;
+        justify-content: center; */
+
+    }
+    .get{
+        height: 40%;
+        width: 100%;
+        font-size: larger;
+        /* border: 1px dotted green; */
+        display: flex;
+        justify-content: center;
+
+
+    }
+    .getit-img{
+        height: 59%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .getit-img img{
+        height: 60%;
+        width: 48%;
+    }
+
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <img src="phoneIG.png" alt="">
+        </div>
+        <div class="box2">
+            <div class="subbox1">
+                    <div class="logobox">
+                       <img src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram.png" alt="">
+                    </div>
+
+                    <div class="inputbox">
+                        <input type="text"
+                         placeholder="Username">
+                        <input type="password"
+                          placeholder="Password">
+                        <button>Log in</button> 
+                    </div>
+
+                    <div class="links">
+                        <div class="or">
+                            <div class="line"></div>
+                            <p>or</p>
+                            <div class="line"></div>
+                        </div>
+
+                        <div class="fb">
+                            <button class="fblogin-btn">Login With Facebook</button>
+                            <a class="forgotpasswd" href="#">Forgot password?</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="subbox2">
+                <p>Don't have an account? <a class="signup" href="#">Sign Up</a></p>
+            </div>
+
+            <div class="bottom-bar">
+                <div class="get"><p>Get the app.</p>
+                </div>
+                <div class="getit-img">
+                    <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png"   alt="">
+                    <img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png"  alt="">
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
