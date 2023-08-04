@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            height: 3000px;
+
+        }
+        .container{
+            height: 439vh;
+                /* border: 2px solid black; */
+
+        }
+        .header{
+            height: 7%;
+            width: 100%;
+            border: 1px solid gray;
+            background-color: white;
+            position: fixed;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        
+
+        .logo button{
+            margin-left: 20px;
+            width: 160px;
+            height: 40px;
+            background-color: white;
+            border: none;
+            text-align: center;
+            justify-content: space-evenly;
+            font-size: large;
+            text-decoration: none;
+        }
+        .button li{
+            display: inline-block;
+            margin-top: 13px;
+            padding: 0px 17px;
+
+        }
+        .buttn li a{
+            color: black;
+            list-style: none;
+            text-decoration: none;
+            font-size: 20px;
+            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+        }
+        
+        .home{
+            height: 99vh;
+            /* border: 2px dashed green; */
+
+
+        }
+        .center{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         font-size: xx-large;
+        }
+    
+        .home img{
+            height: 100%;
+            width: 100%;
+
+
+        }
+        .project{
+            height: 92vh;
+            /* border: 2px dashed red; */
+         
+
+        }
+        .pro-title{
+            height: 10%;
+            width: 100%;
+            /* border: 2px solid black;     */
+        }
+        .pro-title h1{
+            margin: 15px;
+            font-weight: 150 ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .row1{
+            display: flex;
+            margin: 20px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+
+        }
+        .row2{
+            display: flex;
+            margin: 20px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+
+        }
+        .proj{
+            height: 250px;
+            width: 350px;
+            /* border: 2px solid red; */
+        }
+        .proj img{
+            height: 100%;
+            width: 100%;
+        }
+        .about{
+            height: 92vh;
+            /* border: 2px dashed red; */
+
+        }
+
+        .about-title{
+            height: 10%;
+            width: 100%;
+            /* border: 2px solid black;     */
+        }
+        .about-title h1{
+            margin: 15px;
+            font-weight: 150 ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .lorem{
+            height: 15%;
+            margin: 15px;
+            /* border: 2px dashed palevioletred; */
+            /* font-weight: 200; */
+            font-size: 19px;            
+        }
+        .about-boxes{
+            display: flex;
+            margin: 20px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+        }
+        .box{
+            height: 400px;
+            width: 350px;
+            /* border: 2px solid red; */
+
+        }
+        .image-box{
+            height: 60%;
+            width: 100%;
+            /* border: 2px dashed blue; */
+
+        }
+        .image-box img{
+            height: 100%;
+            width: 100%;
+        }
+        .details{
+            height: 43%;
+            width: 100%;
+
+
+            /* border: 2px dotted brown; */
+        }
+        .cont-button{
+            height: 17%;
+            width: 100%;
+            background-color: rgb(202, 202, 202);
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+    
+        h2{
+
+            font-weight: 550;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+        }
+        h3{
+
+            font-weight:550;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+         
+        .contact{
+            height: 50vh;
+            width: 100%;
+                /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+
+        }
+         
+        .cont-title{
+                     
+            height: 10%;
+            width: 100%;
+            /* border: 2px solid black;    */
+        }
+        .cont-title h1{
+            margin: 10px;
+            font-weight: 150 ;
+            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+
+        .inputbox{
+        height: 70%;
+        width: 100%;
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        }
+        .buttnInp{
+            width: 10%;height: 15%;background-color: black;color: white;font-size: larger;
+
+        }
+        .lastpage{
+            height: 80vh;
+            /* border: 2px dotted black;  */
+        }
+        .lastpage img{
+            height: 100%;
+            width: 100%;
+
+        }
+        .footer{
+            height: 20vh;
+            color: white;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 100%);            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .footer img{
+            height: 100%;
+            width: 100%;
+
+        }
+        
+
+
+    </style>
+</head>
+<body>
+
+
+
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <button style="margin-top: 7px;"><b>B R </b> A r c h i t e c t s</button>
+            </div>
+            <div class="button">
+                <ul class="buttn">
+                    <li><a href="#">P r o j e c t s</a></li>
+                    <li><a href="#">A b o u t</a></li>
+                    <li><a href="#">C o n t a c t</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="home">
+            <div class="center"><b>B R </b> A r c h i t e c t s</div>
+            <img src="https://cdn.zmescience.com/wp-content/uploads/2022/02/Modern-architecture.jpg" alt="">
+        </div>
+
+
+        <div class="project">
+            <div class="pro-title">
+                <h1>Projects<h1>
+            </div>
+            <div class="row1">
+                <div class="proj" id="item-1">
+                    <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwaG91c2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="">
+                    
+                </div>
+                <div class="proj" id="item-2">
+                    <img src="https://img.freepik.com/free-photo/design-house-modern-villa-with-open-plan-living-private-bedroom-wing-large-terrace-with-privacy_1258-169741.jpg" alt="">
+
+                </div>
+                <div class="proj" id="item-3">
+                    <img src=" https://www.home-designing.com/wp-content/uploads/2023/04/modern-houses.jpg" alt="">
+
+                </div>
+                <div class="proj" id="item-4">
+                    <img src="https://luxury-houses.net/wp-content/uploads/2021/01/A-Nice-California-Modern-House-in-Los-Angeles-by-Montalba-Architects-1.jpg" alt="">
+
+                </div>
+            </div>
+            <div class="row2">
+               <div class="proj" id="item-5">
+                <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwaG91c2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="">
+
+               </div>
+               <div class="proj" id="item-6">
+                <img src="https://img.freepik.com/free-photo/design-house-modern-villa-with-open-plan-living-private-bedroom-wing-large-terrace-with-privacy_1258-169741.jpg" alt="">
+
+               </div>
+               <div class="proj" id="item-7">
+                <img src=" https://www.home-designing.com/wp-content/uploads/2023/04/modern-houses.jpg" alt="">
+
+               </div>
+               <div class="proj" id="item-8">
+                <img src="https://luxury-houses.net/wp-content/uploads/2021/01/A-Nice-California-Modern-House-in-Los-Angeles-by-Montalba-Architects-1.jpg" alt="">
+
+               </div>
+            </div>
+
+        </div>
+        <div class="about">
+            <div class="about-title">
+                <h1>About<h1>
+            </div>
+            <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                 </div>
+
+            <div class="about-boxes">
+                    <div class="box" id="box1">
+                        <div class="image-box">
+                            <img src="https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.webp?b=1&s=170667a&w=0&k=20&c=TXCiY7rYEvIBd6ibj2bE-VbJu0rRGy3MlHwxt2LHt9w=" alt="">
+                        </div>
+                        <div class="details">
+                            <h2>John Doe</h2><br>
+                            <h3>CEO & Founder</h3><br>
+                            <p>Phasellus eget enim eu lectus faucibus vestibulum. 
+                                Suspendisse sodales pellentesque elementum.</p><br>
+                                <button class="cont-button">Contact</button>
+                            
+                        </div>
+                    </div>
+                    <div class="box" id="box2">
+                        <div class="image-box">
+                            <img src="https://previews.123rf.com/images/ngvprod/ngvprod1912/ngvprod191200332/135358012-happy-smiling-african-girl-in-black-clothes-stands-among-the-field-beautiful-landscape-on-the.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h2>Jane Doe</h2><br>
+                            <h3>Architect</h3><br>
+                            <p>Phasellus eget enim eu lectus faucibus vestibulum. 
+                                Suspendisse sodales pellentesque elementum.</p><br>
+                                <button class="cont-button">Contact</button>
+                            
+                        </div>
+                    </div>
+                    <div class="box" id="box3">
+                        <div class="image-box">
+                            <img src="https://gudstory.s3.us-east-2.amazonaws.com/wp-content/uploads/2021/04/08083428/Johnny-Sins-Biography.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h2>Mike Ross</h2><br>
+                            <h3>Architect</h3><br>
+                            <p>Phasellus eget enim eu lectus faucibus vestibulum. 
+                                Suspendisse sodales pellentesque elementum.</p><br>
+                                <button class="cont-button">Contact</button>
+                            
+                        </div>
+                    </div>
+                    <div class="box" id="box4">
+                        <div class="image-box">
+                            <img src="https://e1.pxfuel.com/desktop-wallpaper/972/337/desktop-wallpaper-how-old-is-khaby-lame.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h2>Dan Star</h2><br>
+                            <h3>Architect</h3><br>
+                            <p>Phasellus eget enim eu lectus faucibus vestibulum. 
+                                Suspendisse sodales pellentesque elementum.</p><br>
+                                <button class="cont-button">Contact</button>
+                        </div>
+                    </div>
+                 </div>
+     
+
+            </div>
+        
+
+
+
+        <div class="contact">
+            <div class="cont-title">
+                <h1>Contact<h1><br>
+                    
+            </div><br>
+            <i style="font-size: 20px;margin: 15px;">Lets get in touch and talk about your next project.
+
+            </i>
+         
+            <div class="inputbox">
+                     <input type ="text"
+                        placeholder=" Name" style="height: 15%;width: 97%;"><br>
+                     <input type="email"
+                        placeholder=" Email" style="height: 15%;width: 97%;"><br>
+    
+                     <input type="text"
+                        placeholder=" Subject" style="height: 15%;width: 97%;"><br>
+                     <input type="text"
+                        placeholder=" Comments" style="height: 15%;width: 97%;"><br> 
+                <button class="buttnInp" >Send Message</button> 
+            </div>
+
+        </div>
+        <div class="lastpage">
+            <img src="https://ychef.files.bbci.co.uk/976x549/p07s8l9h.jpg" alt="">
+        </div>
+        <div class="footer">
+            <h3>Powered By RegEx</h3>
+        </div>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
